@@ -1,39 +1,56 @@
-# QR Code Generator
+# Nutritional Diet Suggestion Expert System
 
-This Python application generates QR codes based on user input strings. It offers options to add common prefixes and postfixes to the input string or generate the QR code directly from the input. The generated QR code is displayed in a graphical user interface using Tkinter.
-
-## Description
-
-The QR Code Generator application allows users to create QR codes for any string input. It provides two options for generating QR codes:
-- With assumptions of common prefixes and postfixes (e.g., http://, www., .com).
-- Without any assumptions, allowing custom input handling.
-
-The application uses the `pyqrcode` library to generate QR codes and `tkinter` for the graphical user interface. It includes error handling to ensure valid input and displays the generated QR code with a message confirming its creation.
+This Python script provides a personalized diet suggestion and meal plan based on user input. It features a knowledge base of foods and their nutrient values, and offers a user-friendly GUI for interaction.
 
 ## Features
 
-- Two modes of generating QR codes: with and without assumptions.
-- User-friendly interface using Tkinter with input validation.
-- Displays the generated QR code and status messages.
+- **Combine Nutrients**: Merges nutrient information from different diet types (non-vegetarian, vegetarian, vegan).
+- **Suggest Diet**: Calculates daily nutrient recommendations based on user weight, height, age, and gender.
+- **Suggest Meal Plan**: Generates a meal plan based on the chosen diet type and number of courses.
+- **User-Friendly GUI**: Easy-to-use interface built with Tkinter.
 
 ## Usage
 
-1. Enter any string into the input field.
-2. Click on "Generate QR Code (with Prefix & Postfix)" to create a QR code with assumptions.
-3. Alternatively, click on "Generate QR Code" for a QR code without assumptions.
-4. The generated QR code and a success message will be displayed.
+1. Run the script.
+2. Enter your weight, height, age, and gender.
+3. Click "Calculate Recommendations" to get daily nutrient recommendations.
+4. Select a diet type and specify the number of courses.
+5. Click "Generate Meal Plan" to get a suggested meal plan.
 
 ## Requirements
 
 - Python 3.x
-- tkinter
-- pyqrcode
+- Tkinter
+- PIL (Pillow)
 
 ## Installation
 
-Clone the repository and install dependencies using pip:
+1. **Clone the repository:**
+   
+bash
+   git clone https://github.com/yourusername/Nutritional-Diet-Suggestion-Expert-System.git
+   
+2. **Navigate to the project directory:**
+bash
+    cd Nutritional-Diet-Suggestion-Expert-System
+     
+3. **Install the required packages:**
+   
+bash
+   pip install -r requirements.txt
+   
+4. **Run the script:**
+bash
+   python diet_suggestion_app.py
+   
+## Customization
 
-```bash
-git clone https://github.com/yourusername/qr-code-generator.git
-cd qr-code-generator
-pip install -r requirements.txt
+Feel free to customize the knowledge base and add more foods or nutrients based on your needs. The knowledge base is defined in the script as a dictionary, which can be easily modified.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, please contact shivamdave172003@gmail.com .
