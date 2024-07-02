@@ -41,6 +41,10 @@ This Python script provides a personalized diet suggestion and meal plan based o
    ```bash
    python diet_suggestion_app.py
 
+## requirements.txt
+tkinter
+pillow
+
 ## Customization
 
 Feel free to customize the knowledge base and add more foods or nutrients based on your needs. The knowledge base is defined in the script as a dictionary, which can be easily modified.
