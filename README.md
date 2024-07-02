@@ -37,7 +37,6 @@ This Python script provides a personalized diet suggestion and meal plan based o
 ```bash
 cd Nutritional-Diet-Suggestion-Expert-System
 
-4. **Run the script:**
-   ```bash
-   python diet_suggestion_app.py
-
+4.**Install the required packages:**
+```bash
+cd Nutritional-Diet-Suggestion-Expert-System
