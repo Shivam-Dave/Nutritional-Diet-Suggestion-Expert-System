@@ -27,22 +27,22 @@ This Python script provides a personalized diet suggestion and meal plan based o
 
 1. **Clone the repository:**
    
-bash
+```bash
    git clone https://github.com/yourusername/Nutritional-Diet-Suggestion-Expert-System.git
-   
+```
 2. **Navigate to the project directory:**
-bash
+```bash
     cd Nutritional-Diet-Suggestion-Expert-System
-     
+```  
 3. **Install the required packages:**
-   
-bash
+```bash
    pip install -r requirements.txt
-   
+```
 4. **Run the script:**
-bash
+```bash
    python diet_suggestion_app.py
-   
+```
+
 ## Customization
 
 Feel free to customize the knowledge base and add more foods or nutrients based on your needs. The knowledge base is defined in the script as a dictionary, which can be easily modified.
